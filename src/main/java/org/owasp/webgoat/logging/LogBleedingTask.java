@@ -60,6 +60,8 @@ public class LogBleedingTask extends AssignmentEndpoint {
         if (username.equals("Admin") && password.equals(this.password)) {
             return success(this).build();
         }
+        kuch to gadbad hai daya
+        ha ha ha
 
         return failed(this).build();
     }
